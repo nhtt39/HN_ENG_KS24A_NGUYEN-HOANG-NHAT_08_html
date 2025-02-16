@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+
+body {
+    width: 70%;
+    position: relative;
+    border: 1px solid rgb(238, 236, 236);
+    height: 540px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.underline {
+    border-bottom: 4px solid red;
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.container-1 {
+    position: absolute;
+    left: 0;
+    left: 10px;
+    width: 250px;
+}
+
+.border-1 {
+    border-right: 1px solid rgb(238, 236, 236);
+    position: absolute;
+    left: 0;
+    left: 317px;
+    height: 428px;
+
+}
+
+.container-1 .title-1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.container-1 .text-1 {
+    color: grey;
+}
+
+.container-2 {
+    position: absolute;
+    right: 0;
+    right: 453px;
+    width: 250px;
+}
+
+.container-2 .title-2 {
+    margin-top: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+.container-2 .text-2 {
+    color: grey;
+}
+
+.container-3 {
+    position: absolute;
+    right: 0;
+    right: 95px;
+    width: 250px;
+}
+
+.container-3 .title-3 {
+    margin-top: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+.container-3 .text-3 {
+    color: grey;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    margin-top: 30px;
+    color: rgb(255, 60, 0);
+    border-color: rgb(255, 60, 0);
+    background-color: white;
+    border-radius: 4px;
+}
+
+.border-2 {
+    border-right: 1px solid rgb(238, 236, 236);
+    position: absolute;
+    right: 0;
+    right: -58px;
+    height: 428px;
+    top: 0px;
+
+}
+

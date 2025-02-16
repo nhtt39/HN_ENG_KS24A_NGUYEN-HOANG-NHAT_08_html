@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #4e3e5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid gray;
+    margin: 10% 32%;
+    padding: 13% 10%;
+    color: white;
+    position: relative;
+    
+}
+.container .body{
+    
+}
+
+.container .body .name{
+    position: absolute;
+    left: 38px;
+    top: 50px;
+    margin-top: -10px;
+    
+}
+
+.container .body .name .text{
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: #4e3e5c;
+    padding: 10px 30px;
+}
+
+.container .body .email{
+    position: absolute;
+    right: 38px;
+    top: 50px;
+    margin-top: -10px;
+}
+
+.container .body .email .mail{
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: #4e3e5c;
+    padding: 10px 30px;
+}
+
+.container .body .message {
+    position: absolute;
+    left: 38px;
+    top: 135px;
+}
+
+.container .body .message .msg{
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: #4e3e5c;
+    padding: 55px 95%;
+}
+
+.container .footer {
+    position: absolute;
+    left: 38px;
+    bottom: 37px;
+}
+
+.container .footer .submit{
+    border: 1px none #efefef;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #efefef;
+}
